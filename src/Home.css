@@ -1,0 +1,78 @@
+/* .home-container {
+    display: flex;
+
+}
+.image-container{
+    background-image: url("./Images/login.jpg");
+    background-repeat: no-repeat;
+    width: 120vh;
+    height: 95vh;
+    background-size: 100% 100%;
+}
+.text-container{
+    max-width: 500px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0,0,0,0.2); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.2);
+    
+}
+.text-container h2{
+    color: rgb(40, 137, 186);
+}
+.text-container p{
+    color: #666666;
+    
+}
+.text-container h1{
+    color:rgb(65, 68, 224);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 50px;
+    
+} */
+
+
+
+
+
+.home-container {
+    display: flex;
+  }
+  .image-container {
+    background-image: url("./Images/login.jpg");
+    width: 200vh;
+    height: 92.5vh;
+    background-size: 100% 100%;
+  }
+  .text-container {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  
+  }
+  .text-container h2{
+      color:  #38388f;
+      padding-left: 20px;
+  }
+  .text-container p{
+      color: #0e0b0b;
+      padding-left: 20px;
+  
+  }
+  .text-container h1{
+    color:rgb(65, 68, 224);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 50px;
+    
+} 
+
+  

@@ -1,0 +1,52 @@
+.deposit-container{
+    display: flex;
+}
+.image-deposit-container{
+    background-image: url('../Images/login.jpg');
+    background-size: 100% 100%;
+    width: 150vh;
+    height: 90vh;
+}
+.text-deposit-container{
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.2);
+
+}
+.text-deposit-container input{
+    border: 1px solid rgb(131,140,239);
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    width: 450px;
+    display: flex;
+    margin: 5px;
+    margin-left: 10px;
+    color: blue;
+}
+.text-deposit-container button{
+    border: 1px solid rgb(131,140,239);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 10px;
+}
+.text-deposit-container label{
+    padding-left: 10px;
+}
+.text-deposit-container button:hover{
+    background-color: blueviolet;
+}
+.text-deposit-container h2{
+    color: blueviolet;
+    padding-left: 10px;
+}
+p{
+    margin-left: -10px;
+}
+.text-deposit-container h1{
+    color: rgb(83, 113, 210);
+    padding-left: 170px;
+    font-family: 'Times New Roman', Times, serif;
+}

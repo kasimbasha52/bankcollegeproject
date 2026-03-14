@@ -1,0 +1,18 @@
+nav{
+  background-color: #43439e;
+  color: aliceblue;
+  padding: 1px;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link{
+  color: rgb(214, 226, 226);
+  text-decoration: none;
+}
+.nav-link:hover{
+  text-decoration:underline;
+  cursor: pointer;
+}

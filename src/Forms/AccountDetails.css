@@ -1,0 +1,41 @@
+.account-container{
+    display: flex;
+}
+.image-account-container{
+    background-image: url('../Images/login.jpg');
+    background-size: 100% 100%;
+    width: 160vh;
+    height: 90vh;
+}
+.text-account-container{
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+ box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+ margin-left: 30px;
+ margin-top: 30px;
+    
+}
+
+.account-container h1{
+    color: rgb(59, 36, 150);
+    padding: 20px;
+    margin-left: 45px;
+    
+    
+}
+.account-container h2{
+    color: rgb(47, 124, 169);
+    padding: 20px;
+
+    
+    
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+}
+p{
+    margin-left: 12px;
+}

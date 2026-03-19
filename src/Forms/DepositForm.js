@@ -9,6 +9,7 @@ const DepositForm = ({customer,updateBalance}) => {
     date:'',
     depositAmount:'',
     depositType:'',
+    AWS_secret_key="nfkjngdfkjgn"
   })
  
   const handleDeposit=async(e)=>{

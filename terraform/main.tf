@@ -1,11 +1,25 @@
+# 1. Define the Provider
 provider "aws" {
   region = "us-east-1"
 }
 
+# 2. Create a Random ID for unique bucket naming
 resource "random_id" "bucket_suffix" {
   byte_length = 4
 }
 
-resource "aws_s3_bucket" "test_bucket" {
-  bucket = "vault-demo-bucket-${random_id.bucket_suffix.hex}"
+# 3. Create the S3 Bucket
+resource "aws_s3_bucket" "vault_test_bucket" {
+  bucket = "devsecops-vault-demo-${random_id.bucket_suffix.hex}"
+
+  tags = {
+    Name        = "Vault Dynamic Secret Test"
+    Environment = "Dev"
+    ManagedBy   = "Terraform"
+  }
+}
+
+# 4. Output the bucket name
+output "bucket_name" {
+  value = aws_s3_bucket.vault_test_bucket.id
 }

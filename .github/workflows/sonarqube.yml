@@ -1,0 +1,21 @@
+name: SonarQube Scan
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sonar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v2
+        with:
+          args: >
+            -Dsonar.projectKey=your_project_key
+            -Dsonar.host.url=http://your-sonarqube-url
+            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
